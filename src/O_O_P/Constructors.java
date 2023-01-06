@@ -24,6 +24,8 @@ public class Constructors {
         students random = new students(kunal);
         System.out.println(random.name);
 
+        students random2 = new students();
+        System.out.println(random2.name);
 
     }
 
@@ -54,7 +56,9 @@ class students {
     }
 
     students(){
-
+        //this is how you call a constructor from another constructor
+        //internally: new Student
+        this(13,"Superman",69);
 
     }
      //Student arpit = new Student(17, "Arpit", 89.7f);
