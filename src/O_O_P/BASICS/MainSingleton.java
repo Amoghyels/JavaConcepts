@@ -1,4 +1,4 @@
-package O_O_P;
+package O_O_P.BASICS;
 
 public class MainSingleton {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package O_O_P;
+package O_O_P.BASICS;
 
 //this is demo to show initialisation of static variables
 public class StaticInit {

@@ -1,4 +1,4 @@
-package O_O_P;
+package O_O_P.BASICS;
 
 public class Constructors {
     public static void main(String[] args) {
@@ -7,8 +7,8 @@ public class Constructors {
         int[] marks =  new int[5];
 
 
-        O_O_P.students kunal  = new students(15,"Kunal", 85);
-        O_O_P.students rahul = new students();
+        O_O_P.BASICS.students kunal  = new students(15,"Kunal", 85);
+        O_O_P.BASICS.students rahul = new students();
      /*   kunal.name = "Amogh";
         kunal.rno = 13;
         kunal.marks = 87;*/

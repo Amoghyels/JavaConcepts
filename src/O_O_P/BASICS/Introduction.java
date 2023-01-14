@@ -1,4 +1,4 @@
-package O_O_P;
+package O_O_P.BASICS;
 
 public class Introduction {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Introduction {
         float[] marks =  new float[5];
 
 
-        O_O_P.students kunal  = new students();
+        O_O_P.BASICS.students kunal  = new students();
         kunal.name = "Amogh";
         kunal.rno = 13;
         kunal.marks = 87;
